@@ -1,6 +1,11 @@
-.screen {
+.l-screen {
   width: 1080px;
   height: 1920px;
   margin: 0 auto;
   background: #000000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
