@@ -1,12 +1,12 @@
 .pulse-button {
   position: relative;
-  width: 866px;
-  height: 225px;
+  width: 433px;
+  height: 112px;
   border-radius: 171px;
   background: white;
   color: black;
   font-family: Helvetica, sans-serif;
-  font-size: 90px;
+  font-size: 45px;
   font-weight: 400;
   text-decoration: underline;
   display: flex;
@@ -22,8 +22,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 866px;
-    height: 225px;
+    width: 433px;
+    height: 112px;
     border-radius: 171px;
     z-index: -1;
     animation: pulse-ring 2.4s infinite ease-out;
