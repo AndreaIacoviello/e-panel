@@ -14,8 +14,16 @@
   justify-content: center;
   align-items: center;
   z-index: 2;
-  animation: pulse-button-scale 2.4s infinite ease-in-out;
-
+  div {
+    background-color: yellow;
+    width: 433px;
+    height: 112px;
+    border-radius: 171px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   &::before,
   &::after {
     content: "";
@@ -31,12 +39,12 @@
   }
 
   &::before {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(120, 120, 120, 0.5);
     animation-delay: 0s;
   }
 
   &::after {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(200, 200, 200, 1);
     animation-delay: 1.2s;
   }
 }
@@ -47,14 +55,14 @@
     transform: scale(1);
   }
   50% {
-    transform: scale(1.04);
+    transform: scale(1.02);
   }
 }
 
 @keyframes pulse-ring {
   0% {
     transform: translate(-50%, -50%) scale(1);
-    opacity: 0.4;
+    opacity: 1;
   }
   100% {
     transform: translate(-50%, -50%) scale(2.2);
